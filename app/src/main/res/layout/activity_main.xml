@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context="com.kumar.user.app_21mywishlistsqlitedatabase.MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="30sp"
+        android:text="@string/my_wishlist"
+        android:textSize="50sp"
+        android:textStyle="bold|italic"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/edittitle"
+        android:layout_width="250dp"
+        android:layout_height="30sp"
+        android:layout_alignLeft="@+id/wishEdit"
+        android:layout_alignStart="@+id/wishEdit"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="23dp"
+        android:background="#ffff"
+        android:ems="10"
+        android:gravity="start"
+        android:hint="@string/enter_title"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/wishEdit"
+        android:layout_width="270dp"
+        android:layout_height="300dp"
+        android:background="#ffff"
+        android:ems="10"
+        android:gravity="start"
+        android:hint="@string/enter_a_wish"
+        android:inputType="textPersonName"
+        android:textAlignment="textStart"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/edittitle"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:layout_marginLeft="73dp"
+        android:layout_marginStart="73dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/wishEdit"
+        android:layout_alignStart="@+id/wishEdit"
+        android:layout_marginBottom="25dp" />
+</RelativeLayout>

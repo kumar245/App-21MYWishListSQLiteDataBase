@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">App-21 MY WishList SQLiteDataBase</string>
+    <string name="my_wishlist">MY DIARY</string>
+    <string name="enter_title">Enter Title</string>
+    <string name="save">Submit</string>
+    <string name="enter_a_wish">Enter A Wish</string>
+    <string name="title_activity_display_wishes">Display_wishes</string>
+    <string name="my_title">My Title</string>
+    <string name="my_wish">My Wish...</string>
+    <string name="wish_title">Wish Title</string>
+    <string name="date">date</string>
+</resources>
